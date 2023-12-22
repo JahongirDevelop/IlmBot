@@ -1,0 +1,62 @@
+package uz.pdp.model;
+
+public enum UserState {
+    START,
+    REGISTERED,
+//Asma'ul Husna maruzalarButtonMenu
+    FIRST,
+    SECOND,
+    THIRD,
+    FOURTH,
+    ASMAUL_HUSNA,
+
+    //Nafsni poklash maruzalarButtonMenu
+    NAFSNI_POKLASH,
+    NAFSNI_POKLASH_1,
+    NAFSNI_POKLASH_2,
+
+    //Qisqa darsliklar maruzalarButtonMenu
+
+    QISQA_DARSLIKLAR,
+    QISQA_DARSLIKLAR_1,
+    QISQA_DARSLIKLAR_2,
+
+    // Siyrat darslari maruzalarButtonMenu
+
+    SIYRAT_DARSLARI,
+    SIYRAT_1_15,
+    SIYRAT_16_30,
+    SIYRAT_31_45,
+    SIYRAT_46_60,
+    SIYRAT_61_63,
+
+    // Kinolar menu
+    UMAR_IBN_HATTOB_SERIALI,
+    UMAR_IBN_HATTOB_SERIALI_1,
+    UMAR_IBN_HATTOB_SERIALI_2,
+    UMAR_IBN_HATTOB_SERIALI_3,
+
+    // Nashidalar menu
+    IZZAT_SHUKUROV,
+    SAMI_YUSUF,
+    MAHER_ZAIN,
+    AHMED_BUKHATIR,
+
+
+    //Audio kitoblar menu
+
+    SAODAT_ASRI_QISSALARI_1_25,
+    SAODAT_ASRI_QISSALARI_26_50,
+    SAODAT_ASRI_QISSALARI_51_75,
+    SAODAT_ASRI_QISSALARI_76_100,
+    SAODAT_ASRI_QISSALARI_101_125,
+    SAODAT_ASRI_QISSALARI_126_150,
+    SAODAT_ASRI_QISSALARI_151_175,
+    SAODAT_ASRI_QISSALARI_176_200,
+    SAODAT_ASRI_QISSALARI_201_204,
+
+
+
+    // MENU
+    MENU, MARUZALAR, NASHIDALAR, AUDIO_KITOBLAR, KINOLAR, MAIN_MENU, ALOQA, SAODAT_ASRI_QISSALARI;
+}
